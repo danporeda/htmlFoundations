@@ -30,12 +30,20 @@
     </tfoot>
   </table>
 
-  <form action="/tacos">
+  <form action="http://www.reddit.com/search">
     <label for="cheese">Favorite Cheese?</label>
-      <input type="text" id="cheese" placeholder="queso?"/>
-      <button>click the tunt</button>
-      <button type="button">wont click the tunt</button>
-      <input type="submit" value="will click the tuntion" />
+      <input type="text" id="cheese" placeholder="queso?" name="q"/>
+      <button>search reddit</button>
+  </form>
+  <form action="http://www.google.com/search">
+    <label for="google">search google</label>
+    <input type="text" id="google" name="q" />
+    <button>google</button>
+  </form>
+  <form action="https://www.youtube.com/results">
+    <label for="youtube">search youTube</label>
+    <input type="text" id="youtube" name="search_query">
+    <button>YouTube</button>
   </form>
 </body>
 </html>
