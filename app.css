@@ -1,19 +1,31 @@
-h1 {
-  color: red;
+h1,h2 {
+  color: #1d3557;
 }
 
-h2 {
-  color: teal;
-  background-color: cyan;
+body {
+  background-color: #f1faee;
 }
 
 button {
-  color: magenta;
-  background: green;
-  background-color: yellow;
+  font-size: 25px;
+  background-color: #ad8790;
 }
 
-p {
-  color: lightcoral;
-  background-color: purple;
+#signup {
+  background-color: #1d3557;
+  color: #f1faee;
+}
+
+span {
+  color: #457b9d;
+}
+
+.tag {
+  background-color: #e63946;
+  color: #f1faee;
+  font-size: 16px;
+}
+
+.post a {
+  color: #457b9d;
 }
