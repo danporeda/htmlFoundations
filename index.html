@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="app.css">
   <title>Document</title>
 </head>
 <body>
@@ -46,19 +47,23 @@
     <button>YouTube</button>
   </form>
   <h2>More Inputs</h2>
-  <form action="/birds">
-    <input type="checkbox" name="agree_tos" id="agree" checked/>
+  <p>
+  lorem ipsum asshole
+  </p>
+  <form action="http://www.google.com/search">
+    <input type="checkbox" name="q" id="agree" checked/>
     <label for="agree">I agree to everything</label>
     <button>Submit</button>
     <label for="s">S</label>
-    <input type="radio" name="size" id="s" value="small">
+    <input type="radio" name="q" id="s" value="small shirt">
     <label for="m">M</label>
-    <input type="radio" name="size" id="m" value="medium">
+    <input type="radio" name="q" id="m" value="medium shirt">
     <label for="l">L</label>
-    <input type="radio" name="size" id="l" value="large">
+    <input type="radio" name="q" id="l" value="large shirt">
     <label for="xl">XL</label>
-    <input type="radio" name="size" id="xl" value="extra-large">
+    <input type="radio" name="q" id="xl" value="extra-large shirt">
   </form>
+  
   <form action="http://www.google.com/search">
     <label for="poop">what kind of poop?</label>
     <select name="q" id="poop">
@@ -67,6 +72,16 @@
       <option value="soft large stool">soft large stools</option>
     </select>
     <button>Search poop</button>
+  </form>
+  <form action="http://www.google.com/search">
+    <input type="range" min="0" max="100" name="q">
+    <button>search</button>
+  </form>
+  <h2>Validations demo</h2>
+  <form action="http://www.google.com/search">
+    <label for="first">First Name</label>
+    <input type="text" id="first" name="q" required minlength="3">
+    <button>Submit</button>
   </form>
 </body>
 </html>
