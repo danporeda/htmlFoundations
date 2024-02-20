@@ -29,3 +29,48 @@ span {
 .post a {
   color: #457b9d;
 }
+
+footer a {
+  color: red;
+}
+
+h2 + button {
+  color: magenta;
+}
+
+footer > a {
+  color: darkgoldenrod;
+}
+
+input[type="password"] {
+  color: lightcoral;
+}
+
+a[href*="puppies"] {
+  color: aqua;
+}
+
+.post button:hover {
+  background-color: #e63946;
+  color: #f1faee;
+}
+
+.post button:active {
+  background-color: bisque;
+}
+
+.post:nth-of-type(2n) {
+  background-color: #dfe8dc;
+}
+
+h2::first-letter {
+  font-size: 50px;
+}
+
+p::first-line {
+  color: purple;
+}
+
+p::selection {
+  color: #fcbf49;
+}
