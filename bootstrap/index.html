@@ -129,6 +129,44 @@
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore officia ratione ipsum eius dolore pariatur alias neque nisi nulla, esse rerum iusto et obcaecati autem dolor unde. In, dolorem enim.
     </div>
   </div>
+  <h2 class="display-4">Forms</h2>
+  <form action="#nowhere">
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" id="email" placeholder="email" />
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" class="form-control form-control-lg" id="password" placeholder="password" />
+    </div>
+    <div class="form-group">
+      <label for="state"></label>
+      <select class="form-control form-control-sm" name="state" id="state">
+        <option value="AL">Alabama</option>
+        <option value="AK">Alaska</option>
+      </select>
+    </div>
+    <div class="form-check">
+      <input type="checkbox" value="" class="form-check-input" id="default">
+      <label for="default" class="form-check-label">Default</label>
+    </div>
+    <div class="form-check">
+      <input type="checkbox" value="" class="form-check-input" id="default" disabled>
+      <label for="default" class="form-check-label">Disabled</label>
+    </div>
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input" id="custom">
+      <label for="custom" class="custom-control-label">Custom Checkbox</label>
+    </div>
+    <div class="custom-control custom-switch">
+      <input type="checkbox" class="custom-control-input" id="customswitch">
+      <label for="customswitch" class="custom-control-label">Custom Switch</label>
+    </div>
+    <div class="custom-control custom-switch">
+      <input type="checkbox" class="custom-control-input" id="customswitch" disabled>
+      <label for="customswitch" class="custom-control-label">disabled Custom Switch</label>
+    </div>
+  </form>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
