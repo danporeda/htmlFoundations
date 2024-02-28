@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="app.css">
 </head>
 <body>
-  <div class="container">
+  <div class="container" style="margin-bottom: 50px">
   <h1 class="display-1 text-center text-primary">Bootstrap Playground</h1>
   <h2 class="display-2">Buttons <span class="badge badge-pill badge-danger">Badge Pill</span></h2>
   <button type="button" class="btn btn-primary">Primary</button>
@@ -21,6 +21,20 @@
   <button type="button" class="btn btn-outline-info btn-lg">Outline Info LG</button>
   <button type="button" class="btn btn-secondary btn-sm">Secondary SM</button>
   <button class="btn btn-primary">w/ a badge -> <span class="badge badge-light">9</span></button>
+  <h3 class="display-4">Button Group</h3>
+  <div class="btn-group" role="group" style="margin: 0 0 20px 0">
+    <button class="btn btn-warning">One</button>
+    <button class="btn btn-warning">Two</button>
+    <button class="btn btn-warning">Three</button>
+  </div>
+  <h3 class="display-5">Alerts</h3>
+  <div class="alert alert-danger alert-dismissible fade show">
+    <h4 class="alert-heading">OH NO</h4>
+    Danger Danger!!! 
+    <button aria-label="Close" class="close" data-dismiss="alert">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
   <h2 class="display-2">Typography Stuff</h2>
   <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
     Architecto eos, itaque consequuntur perferendis delectus 
@@ -33,6 +47,88 @@
       quo eum accusamus tempora ea ex perferendis.</p>
       <footer class="blockquote-footer">Mr. Lorem Ipsum</footer>
   </blockquote>
+  <h1 class="display-4 text-center text-primary">The Grid System</h1>
+  <div class="row text-center">
+    <div class="col-1 bg-success">ONE</div>
+    <div class="col-1 bg-primary">TWO</div>
+    <div class="col-1 bg-secondary">THREE</div>
+    <div class="col-1 bg-danger">FOUR</div>
+    <div class="col-1 bg-info">FIVE</div>
+    <div class="col-1 bg-warning">SIX</div>
+    <div class="col-1 bg-light text-dark">SEVEN</div>
+    <div class="col-1 bg-dark text-white">EIGHT</div>
+    <div class="col-1 bg-success">NUEN</div>
+    <div class="col-1 bg-secondary">ZEIN</div>
+    <div class="col-1 bg-danger">ELEVEN</div>
+    <div class="col-1 bg-info">TWELVE</div>
+  </div>
+  <div class="row text-center">
+    <div class="col-12 bg-info">buttfucker</div>
+  </div>
+  <div class="row text-center">
+    <div class="col-2 bg-primary"></div>
+    <div class="col-8 bg-warning">McGEE</div>
+    <div class="col-2 bg-primary"></div>
+  </div>
+  <div class="row text-center">
+    <div class="col bg-primary">AUTO</div>
+    <div class="col bg-warning">McGonagal</div>
+    <div class="col bg-primary">AUTO</div>
+  </div>
+  <div class="row text-center" style="margin-bottom: 50px">
+    <div class="col bg-success">AUTO</div>
+    <div class="col-8 bg-danger text-white">SIZED 8</div>
+    <div class="col bg-success">AUTO</div>
+  </div>
+  <h3 class="display-4 text-center">Responsive Grid</h3>
+  <div class="row text-center" style="margin-bottom: 50px">
+    <div class="col-sm-6 col-lg-4 bg-success">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Illum consectetur corrupti, fuga nostrum ea deleniti veniam sit. 
+        Quos atque, animi debitis, sit cumque iste dolorum explicabo accusamus r
+        atione possimus dolore?</p>
+    </div>
+    <div class="col-sm-6 col-lg-4 bg-warning">
+      <p>Lorem ipsum dolo sit amet consectetur adipisicing elit. 
+        Illum consectetur corrupti, fuga nostrum ea deleniti veniam sit. 
+        Quos atque, animi debitis, sit cumque iste dolorum explicabo accusamus r
+        atione possimus dolore?</p>
+    </div>
+    <div class="col-sm-6 col-lg-4 bg-info">
+      <p>Lorem ipsum dolo sit amet consectetur adipisicing elit. 
+        Illum consectetur corrupti, fuga nostrum ea deleniti veniam sit. 
+        Quos atque, animi debitis, sit cumque iste dolorum explicabo accusamus r
+        atione possimus dolore?</p>
+    </div>
+  </div>
+  <h2 class="display-4 text-center">Birbs</h2>
+  <div class="row no-gutters">
+    <div class="col-lg-4 col-md-6">
+      <img class="img-fluid" src="https://images.unsplash.com/photo-1606567595334-d39972c85dbe?q=80&w=2403&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <img class="img-fluid" src="https://images.unsplash.com/photo-1552728089-57bdde30beb3?q=80&w=2825&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="birb">
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <img class="img-fluid" src="https://images.unsplash.com/photo-1480044965905-02098d419e96?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="birb">
+    </div>
+  </div>
+  <h2 class="display-5 text-center">Grid Alignment</h2>
+  <div class="row align-items-center">
+    <div class="col-3 bg-danger align-self-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed excepturi tempore autem voluptas atque alias molestiae placeat! Similique perspiciatis sint, pariatur dolorem, ab voluptatibus dolor, laboriosam tempora cupiditate aspernatur doloremque?</div>
+    <div class="col-3 bg-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cumque fugiat ea. Molestiae dolorem facere excepturi facilis aspernatur possimus ipsa beatae suscipit doloremque illum! Consequuntur nesciunt blanditiis quasi est exercitationem.</div>
+    <div class="col-3 bg-success">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio iste temporibus earum et veniam quaerat, consequuntur adipisci neque fugiat dolore ullam, deserunt vero! Quo exercitationem, molestias sed aperiam nesciunt accusantium! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, eligendi. Corporis odit ut quisquam inventore ratione ad asperiores. Laudantium aspernatur omnis debitis earum sit doloremque quo delectus aperiam perferendis unde.</div>
+    <div class="col-3 bg-info align-self-end">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic fugit voluptatem non vero, illum dicta, tempore dolorem, et repudiandae consequatur minima in molestias error excepturi dolorum alias officiis tenetur inventore!</div>
+  </div>
+  <h2 class="display-5 text-center">Justify Content</h2>
+  <div class="row border justify-content-center justify-content-md-around justify-content-xl-between">
+    <div class="col-sm-4 bg-primary">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat deleniti perferendis ut autem illo dignissimos voluptatem, odio ipsam ducimus natus consectetur, laboriosam, ex in cupiditate architecto dolorem! Consectetur, quas inventore.
+    </div>
+    <div class="col-sm-4 bg-info">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore officia ratione ipsum eius dolore pariatur alias neque nisi nulla, esse rerum iusto et obcaecati autem dolor unde. In, dolorem enim.
+    </div>
+  </div>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
